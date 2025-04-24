@@ -1,0 +1,52 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general css */
+body{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 370px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px
+}
+.country {
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 20px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 100%;
+    
+    
+}
+button  {
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    color: white;
+    padding: 20px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+main img {
+    border-radius: 50%;
+    width: 90px;
+
+}
